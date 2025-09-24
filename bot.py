@@ -12,7 +12,7 @@ from openpyxl.formatting.rule import CellIsRule
 # ====== Настройки ======
 import os
 TELEGRAM_TOKEN = os.getenv("TOKEN")
-XLSX_PATH = Path(r"D:\visual\bot\bots\Tablitca_bot\Assortment.xlsx")
+XLSX_PATH = Path("Assortment.xlsx")
 SHEET_NAME = "Лист1"
 
 bot = telebot.TeleBot(TELEGRAM_TOKEN)
